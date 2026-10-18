@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_two_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bustling markets"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangierm10" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tangier is a vibrant and bustling city located in the northern region of Morocco. One of the most striking features of the city is its markets, which are known for their exotic goods, vibrant colors, and bustling crowds. In this article, we will explore the history of Tangier's markets, the types of goods that are sold, and the unique cultural experiences that they offer to visitors."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangierm2" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History of Tangier's Markets  Tangier has a long and rich history of trade and commerce. The city has been a center of trade for thousands of years, with merchants coming from all over the Mediterranean and beyond to buy and sell goods. Tangier's markets have played a central role in the city's economic and cultural development, and they continue to be an important part of the city's identity today."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangierm4" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of Goods Sold in Tangier's Markets  Tangier's markets offer a wide range of goods, including spices, textiles, jewelry, pottery, and leather goods. The markets are known for their exotic and colorful displays, with vendors hawking their wares in loud and enthusiastic voices. Some of the most popular goods sold in the markets include:  Spices - Tangier is known for its exotic spices, which are sold in large quantities in the city's markets. Visitors can find everything from saffron and cumin to cardamom and cinnamon.  Textiles - Tangier's markets are also known for their beautiful textiles, including traditional Moroccan carpets, blankets, and clothing. The textiles are often made from high-quality wool and silk and are adorned with intricate patterns and designs.  Jewelry - The markets are a great place to find unique and beautiful jewelry. Visitors can find everything from traditional Berber necklaces to modern silver and gold pieces.  Pottery - Tangier is known for its beautiful pottery, which is often decorated with colorful designs and patterns. Visitors can find everything from decorative vases to traditional Moroccan tagines.  Leather Goods - Tangier is famous for its leather goods, which are made from high-quality leather and come in a range of styles and designs. Visitors can find everything from leather bags and wallets to jackets and shoes."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

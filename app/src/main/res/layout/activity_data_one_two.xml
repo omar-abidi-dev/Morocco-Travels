@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_one_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="riyad"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechry02" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Riads are traditional Moroccan houses with an interior courtyard or garden, typically featuring a fountain or pool. Many of these beautiful buildings have been converted into guesthouses, offering visitors a unique and authentic Moroccan experience. Marrakesh is home to some of the most stunning riads in Morocco, with each offering its own unique charm and style."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechry04" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most popular riads in Marrakesh is the Riad Kheirredine, located in the heart of the medina. This riad features traditional Moroccan architecture, including beautiful tile work, carved wooden doors, and a stunning courtyard garden. The rooms are spacious and decorated in traditional Moroccan style, with modern amenities such as air conditioning and free Wi-Fi."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechry1" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular riad in Marrakesh is the Riad Yasmine, located in the Bab Doukkala neighborhood. This riad features a beautiful rooftop terrace, where guests can relax and take in stunning views of the city. The rooms are decorated in a mix of traditional and modern styles, and the riad also features a hammam and massage services for guests."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For those looking for a luxurious and intimate experience, the Dar Darma is a stunning riad located in the heart of the medina. This riad features beautiful architecture, including intricate tile work, a stunning courtyard, and a rooftop terrace with stunning views of the city. The rooms are decorated with antique furnishings and artwork, and the riad also features a beautiful swimming pool and a hammam."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Riad Jona is another beautiful riad located in the medina, featuring stunning architecture and beautiful décor. This riad features a beautiful courtyard garden, a rooftop terrace with stunning views of the city, and spacious rooms decorated in traditional Moroccan style. The riad also offers cooking classes and other cultural experiences for guests."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overall, staying in a riad in Marrakesh is a unique and memorable experience, offering guests a chance to experience traditional Moroccan architecture and hospitality in a beautiful and intimate setting."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

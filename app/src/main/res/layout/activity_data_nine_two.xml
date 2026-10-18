@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_nine_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView139"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Al-Qarawiyyin Mosque and University"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView140"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezmosque2" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Al-Qarawiyyin Mosque and University is one of the most important landmarks in the city of Fez, Morocco. It is considered to be one of the oldest continuously operating universities in the world and is a UNESCO World Heritage Site.  The mosque and university were founded in 859 by Fatima al-Fihri, a wealthy woman from Tunisia who settled in Fez with her family. The mosque was built first, and over time, it grew into a center for Islamic learning, attracting scholars and students from across the Muslim world."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView141"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezmosque1" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The university is known for its contributions to Islamic scholarship, particularly in the fields of law, theology, and Arabic language. Many famous scholars have studied at Al-Qarawiyyin, including the philosopher Ibn Rushd (also known as Averroes) and the historian Ibn Khaldun.  The mosque itself is a stunning example of Moroccan architecture, with intricate tile work, carved wood, and a beautiful courtyard. Non-Muslims are not allowed to enter the mosque, but they can view it from the outside and admire its beauty."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView142"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezmosque3" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The university has undergone many renovations and expansions over the years, and today, it is a complex of buildings that includes a library, mosque, classrooms, and administrative offices. The library is particularly noteworthy, as it is one of the oldest and most important in the world, containing thousands of manuscripts and rare books on a variety of subjects.  Visitors to the Al-Qarawiyyin Mosque and University can learn about the history and significance of this important institution, and gain a deeper appreciation for the rich intellectual and cultural heritage of Morocco. It is a must-see destination for anyone interested in Islamic scholarship and the history of the Muslim world."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

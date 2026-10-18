@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_three_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView79"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Morocco Mall"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/casaml5" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Morocco Mall is a modern shopping center located in Casablanca, Morocco. It is one of the largest malls in Africa and is a popular destination for both locals and tourists. In this article, we will explore the history, features, and cultural significance of the Morocco Mall."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Morocco Mall opened in December 2011 and was designed by the renowned architect Davide Padoa. The mall is situated on a 10-hectare site that was once an industrial zone and was transformed into a modern retail and entertainment center.  "
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/casa10" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Morocco Mall features a wide variety of shops, restaurants, and entertainment venues, making it a popular destination for people of all ages. The mall has over 600 stores, including international brands such as Zara, Mango, and Nike, as well as luxury brands such as Louis Vuitton, Gucci, and Prada."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The mall also has a 3,500 square meter aquarium, which is home to over 3,000 marine animals, including sharks, stingrays, and sea turtles. Visitors can watch feeding demonstrations and enjoy interactive exhibits that showcase the rich marine life of Morocco.  Another popular attraction at the Morocco Mall is the indoor amusement park, which features a variety of rides and attractions, including a roller coaster, bumper cars, and a Ferris wheel. There is also a large cinema complex that screens the latest movies in both Moroccan and international theaters."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

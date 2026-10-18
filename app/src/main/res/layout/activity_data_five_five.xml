@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_five_five">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView184"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activities"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dakhla, a city located in the southernmost part of Morocco, is known for its natural beauty, water sports, and cultural heritage. There are many activities to enjoy in Dakhla, whether you're a water sports enthusiast or someone who enjoys exploring the culture and history of the region."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView188"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhlaac011" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kitesurfing: Dakhla is famous for its kitesurfing conditions, with strong and steady winds blowing over the lagoon. It is an ideal location for both beginners and experienced kitesurfers, with schools and rental shops offering a range of equipment and courses."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Windsurfing: Similar to kitesurfing, windsurfing is another popular water sport in Dakhla. The lagoon's calm waters and favorable wind conditions make it an excellent location for windsurfing."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Surfing: Dakhla is also a great place for surfing, with several surf spots located along the Atlantic coast. The best time for surfing is from November to March, when the waves are bigger."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView189"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhlaac014" />
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desert excursions: The desert around Dakhla is vast and beautiful, with sand dunes and rock formations that are perfect for exploring. You can take a camel ride or a 4x4 excursion to explore the desert and enjoy the stunning views.  Cultural tours: Dakhla has a rich cultural heritage, with many historic sites and monuments. You can take a guided tour of the city and visit the old town, the local markets, and the museum of traditional arts and crafts."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birdwatching: Dakhla is a paradise for birdwatchers, with many migratory birds stopping here during their journey between Africa and Europe. You can go birdwatching in the lagoon or the nearby national parks and reserves.  Beachcombing: Dakhla's beaches are pristine and untouched, with shells and other marine life washed up on the shore. You can spend a relaxing day beachcombing and collecting souvenirs to take home."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_two_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kasbah"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangerkasbah13" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Tangier Kasbah, also known as the Kasbah Museum, is a historical fortress located in the heart of Tangier, Morocco. It is considered to be one of the city's most iconic landmarks and is a popular tourist destination. The Kasbah dates back to the 17th century and has a rich history that is deeply rooted in the city's cultural heritage. In this article, we will explore the history of the Tangier Kasbah, its significance to the city, and the various attractions that it offers to visitors."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/tangerkasbah12" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History of the Tangier Kasbah"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Tangier Kasbah was built in the 17th century by the city's ruling class, the Alawites. The Alawites were a powerful dynasty that ruled over Morocco from 1666 to 1912. They were known for their military prowess and their ability to maintain control over the country's various tribes and ethnic groups. The Kasbah was built as a fortress to protect the city from invasions and attacks from foreign powers."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tanderk11" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="During the 19th century, the Tangier Kasbah became an important center of commerce and trade. The city of Tangier was an international port, and the Kasbah served as a gateway to the city's markets and bazaars. The Kasbah also became a hub for diplomacy and international relations. In 1923, Tangier became an international zone, and the Kasbah became the headquarters of the Spanish authorities."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangerkasbah14" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Over the years, the Tangier Kasbah has undergone many changes and renovations. During the French colonial period, the Kasbah was transformed into a museum of Moroccan art and culture. Today, the Kasbah Museum houses a collection of artifacts that date back to the Alawite dynasty and the city's colonial past."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Significance of the Tangier Kasbah  The Tangier Kasbah is an important symbol of Tangier's cultural heritage. It represents the city's rich history and its strategic importance as a gateway to Africa and the Mediterranean. The Kasbah has been witness to many historic events, including wars, invasions, and political upheavals. It has played a central role in the city's development and has been a source of inspiration for artists and writers over the years.  The Tangier Kasbah is also an important tourist attraction. Visitors to the city are drawn to the Kasbah's historic architecture, its beautiful gardens, and its stunning views of the Mediterranean Sea. The Kasbah offers a unique glimpse into Morocco's rich cultural heritage and is a must-see destination for anyone interested in the country's history and culture.  Attractions at the Tangier Kasbah  The Tangier Kasbah offers visitors a range of attractions and activities. Some of the most popular include:  The Museum of Moroccan Art and Culture - This museum houses a collection of artifacts that date back to the Alawite dynasty and the city's colonial past. Visitors can view traditional Moroccan clothing, jewelry, ceramics, and other artifacts.  The Dar el-Makhzen Palace - This palace was built in the 17th century and served as the residence of the city's rulers. It is now open to the public and offers a glimpse into the lavish lifestyle of the city's ruling class.  The Kasbah Gardens - The Kasbah is surrounded by beautiful gardens that offer stunning views of the Mediterranean Sea. Visitors can stroll through the gardens and enjoy the peaceful surroundings.  The Grand Mosque - The Grand Mosque is located within the Kasbah and is one of the city's most important religious sites. Visitors can view the mosque's beautiful architecture and learn about its significance to the local community."
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

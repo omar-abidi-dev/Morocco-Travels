@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_three_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hassan II Mosque"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/casam6" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hassan II Mosque is a magnificent mosque located in Casablanca, Morocco. It is one of the largest mosques in the world and is a symbol of Morocco's religious and cultural heritage. In this article, we will explore the history, architecture, and cultural significance of the Hassan II Mosque."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hassan II Mosque was built in 1993 and was designed by the French architect Michel Pinseau. The mosque was constructed to commemorate the late King Hassan II's 60th birthday and to honor his memory. The mosque was built on a site that was once a rocky outcrop overlooking the Atlantic Ocean, and it took more than six years to complete."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/casam5" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hassan II Mosque is a masterpiece of architectural design, combining traditional Moroccan elements with modern techniques and materials. The mosque covers an area of 9 hectares and is situated on a promontory overlooking the Atlantic Ocean. It can hold up to 105,000 worshippers at a time, making it one of the largest mosques in the world.  The mosque's most distinctive feature is its minaret, which stands at 210 meters tall and is the tallest religious structure in the world. The minaret is equipped with a laser beam that shines towards Mecca, providing a powerful symbol of the mosque's connection to the Islamic world.  The mosque's interior is equally impressive, featuring intricate tile work, intricate wood carvings, and ornate plasterwork. The main prayer hall is breathtaking, with a high ceiling, marble floors, and columns carved from Moroccan stone."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hassan II Mosque is an important cultural landmark in Morocco and is regarded as one of the most important religious sites in the country. The mosque serves as a place of worship for the Muslim community, and it also attracts visitors from all over the world who come to marvel at its beauty and learn about Moroccan culture and history."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The mosque is open to non-Muslim visitors for guided tours, which provide an opportunity to learn about Islamic architecture and Moroccan art and culture. Visitors can also watch the daily call to prayer, which is broadcast from the minaret and can be heard throughout the city."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

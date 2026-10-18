@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_two_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cape Spartel Beach"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangier89" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cape Spartel Beach is a popular tourist destination located in the northwestern region of Morocco. Situated at the westernmost point of the African continent, the beach offers stunning views of the Atlantic Ocean and the Strait of Gibraltar. In this article, we will explore the history of Cape Spartel Beach, its significance to the region, and the various attractions that it offers to visitors."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangierun" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History of Cape Spartel Beach  Cape Spartel Beach has a long and storied history that dates back to ancient times. It was known to the Greeks and Romans as the &quot;Pillars of Hercules,&quot; a reference to the two pillars that were said to mark the edge of the known world. In the Middle Ages, the beach was a popular destination for Arab traders who used it as a port of call on their voyages across the Mediterranean."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tanigeru" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="During the 19th century, Cape Spartel Beach became an important center of commerce and trade. The city of Tangier, located just a few kilometers from the beach, was an international port, and Cape Spartel served as a gateway to the city's markets and bazaars. The beach was also a popular destination for European travelers, who were drawn to its natural beauty and exotic charm.  In the early 20th century, Cape Spartel Beach became a popular destination for artists and writers. The beach and its surroundings were the inspiration for many famous works of art and literature, including the paintings of Henri Matisse and the novels of Paul Bowles."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Significance of Cape Spartel Beach  Cape Spartel Beach is an important symbol of the region's cultural heritage. It represents the meeting point of Europe and Africa, and the gateway between the Mediterranean and the Atlantic. The beach has been witness to many historic events, including wars, invasions, and political upheavals. It has played a central role in the region's development and has been a source of inspiration for artists and writers over the years.  Today, Cape Spartel Beach is an important tourist attraction. Visitors to the region are drawn to the beach's natural beauty, its stunning views, and its rich cultural heritage. The beach offers a unique glimpse into the region's history and culture and is a must-see destination for anyone interested in the area's past and present."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

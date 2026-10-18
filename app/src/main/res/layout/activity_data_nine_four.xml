@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_nine_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView148"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="traditional art"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView149"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezzelig" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most unique forms of traditional art in Fez is zellige, which is a form of mosaic tilework. Zellige involves the use of small, geometrically shaped tiles to create intricate patterns and designs. The tiles are usually made from clay, and are often brightly colored. Zellige is used to decorate many buildings and structures in Fez, including mosques, palaces, and public squares."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView153"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezceramic" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most prominent forms of traditional art in Fez is ceramics. The city is known for its vibrant, colorful ceramics, which are often decorated with intricate geometric patterns and calligraphy. The production of ceramics in Fez dates back to the 9th century, and the craft has been refined over time to produce some of the most beautiful and intricate pieces in the world.  "
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView154"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezjuz55" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular traditional art form in Fez is calligraphy. The city has a long tradition of calligraphy, which is the art of writing beautiful script. Calligraphy is used to decorate many objects in Fez, from ceramics to textiles to buildings. The calligraphy in Fez is often in Arabic, and features intricate geometric designs and floral motifs."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

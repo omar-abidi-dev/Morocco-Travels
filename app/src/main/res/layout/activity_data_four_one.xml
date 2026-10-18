@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_four_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView150"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEDINA"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chefchaouen, also known as the Blue Pearl of Morocco, is a beautiful city located in the Rif Mountains of northern Morocco. The city is famous for its stunning blue-painted buildings and winding streets, and is a popular destination for tourists looking to explore its rich history and culture."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView151"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefmedina011" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most popular attractions in Chefchaouen is the medina, which is the historic walled city located at the heart of the city. The medina of Chefchaouen is a UNESCO World Heritage site, and is known for its beautifully preserved traditional architecture and narrow, winding streets. The medina is also famous for its vibrant blue buildings, which give the city its distinctive appearance."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView152"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefcg28" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The medina of Chefchaouen is home to a wide variety of traditional shops and markets, where visitors can find everything from handmade carpets and textiles to beautiful ceramics and jewelry. The marketplaces are filled with the scent of spices and traditional Moroccan food, making them a popular destination for foodies and anyone interested in experiencing the local culture."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView155"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefch587" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The medina is also home to several historic landmarks, including the Kasbah of Chefchaouen, which is a beautiful fortress located at the highest point in the medina. The Kasbah was built in the 15th century, and is now home to a museum that showcases the history and culture of the city."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The medina of Chefchaouen is also a great place to simply wander and explore, as the winding streets and narrow alleys are filled with beautiful architecture and colorful buildings. Visitors can take a stroll through the medina and admire the beautiful blue-painted buildings, or stop at one of the many cafes and restaurants to sample traditional Moroccan cuisine."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

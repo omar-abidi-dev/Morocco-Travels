@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_five_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView183"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="food"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dakhla is a coastal city in southern Morocco that is known for its delicious seafood cuisine. Being situated along the Atlantic Ocean, Dakhla has access to some of the freshest and most diverse seafood in the region. Here are some of the most popular dishes you can find in Dakhla:"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView185"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhlafood055" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grilled Fish: One of the most popular dishes in Dakhla is grilled fish, which is usually served with a side of salad and bread. The fish is usually marinated in a mix of spices and grilled to perfection, giving it a smoky and savory flavor.  Fried Calamari: Another favorite seafood dish in Dakhla is fried calamari, which is made from fresh squid that is breaded and fried to a golden crisp. It is typically served with lemon wedges and a side of dipping sauce."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView186"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhlafood20" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish Tagine: Tagine is a traditional Moroccan dish that is cooked in a clay pot and usually consists of meat or fish, vegetables, and spices. In Dakhla, fish tagine is a popular dish that is made with a variety of fish such as sea bass, mullet, or bream, along with tomatoes, onions, and spices.  Seafood Couscous: Couscous is a staple dish in Moroccan cuisine, and in Dakhla, it is often served with seafood such as shrimp, squid, or fish. The couscous is usually cooked with a mix of vegetables and spices, and the seafood is added on top for a flavorful and hearty meal."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView187"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhlafood0247" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish Soup: Fish soup is a popular dish in Dakhla that is made with a variety of fish such as sole, red mullet, and eel, along with tomatoes, onions, garlic, and spices. It is usually served with a side of bread and is a perfect dish for a cold or rainy day."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

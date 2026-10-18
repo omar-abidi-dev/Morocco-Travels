@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_four_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView160"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artisanal craft"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chefchaouen is known for its vibrant artisanal crafts that reflect the city's rich history and cultural heritage. From intricate textiles to colorful ceramics, the city is home to a thriving community of artists and artisans who create unique and beautiful works of art."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView163"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouencraft5789" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most famous artisanal crafts in Chefchaouen is the city's handwoven textiles. The weavers of Chefchaouen use traditional techniques to create beautiful blankets, rugs, and other textiles that are renowned for their intricate designs and vibrant colors. The textiles are often made using natural dyes derived from plants and minerals, which give them a unique and authentic character."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView161"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouencraft1" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular artisanal craft in Chefchaouen is ceramics. The city's potters create stunning pottery pieces that range from traditional Moroccan teapots and plates to more contemporary designs that are inspired by the city's rich artistic heritage. The ceramics are often adorned with intricate geometric patterns and bright colors, making them a popular choice among tourists and collectors alike."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView162"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouencraft58" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Woodwork is also an important artisanal craft in Chefchaouen. The city's carpenters create stunning pieces of furniture and decorative items using traditional techniques that have been passed down through generations. The woodworkers often use local cedar and olive wood, which give their creations a unique and distinctive character."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other popular artisanal crafts in Chefchaouen include leatherwork, jewelry making, and embroidery. The city's leatherworkers create beautiful bags, shoes, and other leather goods using traditional techniques, while the jewelers create stunning pieces of jewelry that feature precious stones and intricate designs. The embroiderers of Chefchaouen are known for their intricate handwork, which is often used to embellish textiles and other decorative items." />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitors to Chefchaouen can explore the city's artisanal crafts by visiting its many souks and markets, where they can meet local artists and artisans and purchase unique and beautiful works of art. Many of the artisans also offer workshops and classes, giving visitors the opportunity to learn about traditional techniques and create their own unique pieces of art." />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

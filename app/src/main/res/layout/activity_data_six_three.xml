@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_six_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView103"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="activities"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView104"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadira005" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visit the Beaches Agadir is home to some of the most beautiful beaches in Morocco, making it the perfect destination for sun, sand, and sea. Whether you want to relax on the beach or try your hand at water sports, there's a beach for you. Some of the top beaches in Agadir include Agadir Beach, Taghazout Beach, and Tamraght Beach."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadira008" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go Surfing Agadir is known for its excellent surf conditions, with waves suitable for both beginners and advanced surfers. There are several surf schools and rental shops in the area, making it easy for visitors to learn how to surf or rent equipment."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadira001" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visit the Souk El Had Souk El Had is a traditional Moroccan market located in the heart of Agadir. The market is the perfect place to experience the local culture and buy traditional handicrafts, textiles, and spices. The market is open every day except Monday."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

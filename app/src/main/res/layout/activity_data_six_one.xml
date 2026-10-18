@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_six_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView96"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kasbah"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView97"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadirk10" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agadir is a popular tourist destination located in the southern region of Morocco. One of the city's most iconic landmarks is the Agadir Kasbah, a historic fortress that dates back to the 16th century. In this article, we will explore the history and significance of the Agadir Kasbah."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Agadir Kasbah was built in the mid-16th century by the Saadi dynasty, a powerful Moroccan royal family that ruled over the country from 1549 to 1659. The fortress was constructed on a hill overlooking the city, giving it a strategic advantage for defense purposes."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView98"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadirk7" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The kasbah served as a stronghold for the Saadi dynasty and was used to protect the city from invading forces. It was also used as a base for military operations and as a place for the ruling family to take refuge during times of war.  In 1960, a devastating earthquake struck Agadir and destroyed much of the city, including the kasbah. The fortress lay in ruins for many years, but efforts were made to restore it in the 1990s."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today, the Agadir Kasbah is a popular tourist attraction that draws visitors from all over the world. The fortress has been partially restored and offers stunning views of the city and the Atlantic Ocean.  Visitors can explore the kasbah's ruins and learn about its rich history through informative exhibits and displays. There are also several small shops and cafes located within the kasbah where visitors can purchase souvenirs and refreshments."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

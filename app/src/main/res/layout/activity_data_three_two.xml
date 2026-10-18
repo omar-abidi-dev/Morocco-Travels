@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_three_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beach Ain Diab Corniche "
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/casab9" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ain Diab Corniche is a beautiful beachfront area located in Casablanca, Morocco. It is a popular destination for locals and tourists alike, with a long stretch of sandy beach and plenty of restaurants, cafes, and bars. In this article, we will explore the history, features, and cultural significance of the Ain Diab Corniche beach."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ain Diab Corniche beach has a long and interesting history. It was once a fishing village, and the area surrounding the beach was known for its vineyards and olive groves. Over time, the area was developed, and it became a popular destination for locals and tourists."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/casab10" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ain Diab Corniche beach is a long and wide sandy beach, stretching for several kilometers along the Atlantic coast. It is a popular spot for sunbathing and swimming, and there are plenty of facilities available, including showers, changing rooms, and sun loungers.  The beach is also known for its many restaurants, cafes, and bars, which offer a wide range of cuisines and drinks. Visitors can enjoy everything from traditional Moroccan dishes to international cuisine, as well as a variety of drinks, including coffee, tea, and cocktails."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular attraction at the Ain Diab Corniche beach is the seaside promenade, which is perfect for a relaxing stroll or jog. The promenade is lined with palm trees and offers stunning views of the ocean and the city skyline."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

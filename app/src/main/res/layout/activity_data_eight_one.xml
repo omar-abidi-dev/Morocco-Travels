@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_eight_one">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView194"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="the Kasbah of the Udayas"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView195"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatkasbah07" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah of the Udayas is a fortified medieval city located in Rabat, the capital of Morocco. This historical site is one of the most popular attractions in the city and is renowned for its beautiful architecture, narrow streets, and stunning views of the Bouregreg River."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView196"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatkasbah0145" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah was originally built in the 12th century by the Almohad dynasty, a powerful Islamic empire that ruled over much of North Africa and Spain. The Kasbah was built on a hill overlooking the Bouregreg River and was designed to provide a strategic stronghold against any potential invasions."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView197"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatkasbah054" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah is surrounded by high walls and is entered through a grand gate that leads to a maze of narrow streets and alleys. The streets are lined with beautiful white-and-blue painted buildings, which are adorned with traditional wrought-iron balconies and wooden doors. The Kasbah is also home to a number of small cafes, souvenir shops, and local artisanal workshops."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most beautiful and iconic landmarks in the Kasbah is the Andalusian Gardens. These gardens were originally built in the 20th century by the French colonial authorities, and are modeled after the beautiful gardens of Andalusia in southern Spain. The gardens are characterized by beautiful fountains, colorful flower beds, and ornate tilework."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitors to the Kasbah can also explore the Kasbah Museum, which is housed in a traditional Moroccan mansion. The museum showcases a variety of exhibits on the history and culture of the Kasbah and Rabat, including traditional clothing, pottery, and handicrafts."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah of the Udayas is a must-visit destination for anyone traveling to Rabat or Morocco. Its stunning architecture, beautiful gardens, and rich cultural history make it one of the most beautiful and unique attractions in the country. Visitors can spend hours exploring the winding streets, admiring the beautiful buildings, and taking in the breathtaking views of the river and the surrounding countryside."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

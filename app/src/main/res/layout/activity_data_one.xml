@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-4dp"
+    tools:context=".Data_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="marrakech, Meet the unexpected"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="Marrakech is a fascinating city in Morocco, known for its rich history, iconic landmarks, bustling markets, and delicious traditional cuisine."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Marrakech is a city that offers a unique cultural and culinary experience and is a true gem of Morocco."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                app:srcCompat="@drawable/kech4" />
+
+            <Button
+                android:id="@+id/btn1.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="traditonal market" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/kech6" />
+
+            <Button
+                android:id="@+id/btn1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="riyad" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechf1" />
+
+            <Button
+                android:id="@+id/btn1.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="food" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechl1" />
+
+            <Button
+                android:id="@+id/btn1.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="landmarks" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

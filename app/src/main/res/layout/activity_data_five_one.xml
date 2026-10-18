@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_five_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView172"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lagoon"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dakhla Lagoon is a picturesque body of water located in the southernmost region of Morocco. It is a prime destination for kite surfing, windsurfing, and other water sports due to its ideal conditions, including a steady wind and shallow waters."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView173"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhla4" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The lagoon is roughly 40 kilometers long and 15 kilometers wide, making it one of the largest lagoons in the world. It is separated from the Atlantic Ocean by a narrow strip of land, creating a calm and sheltered environment that is perfect for water sports enthusiasts."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView174"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhlalagoon47" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The lagoon is also a popular spot for birdwatchers, with over 360 species of birds inhabiting the area. It is home to a diverse range of bird species, including flamingos, spoonbills, and herons, making it a must-visit destination for nature lovers."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In addition to its natural beauty, Dakhla Lagoon is also known for its unique culture and traditions. The region is home to a large population of Sahrawi people, who have their own distinct culture and language. Visitors to the lagoon can immerse themselves in the local culture by attending traditional music and dance performances, exploring local markets, and sampling traditional cuisine."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accommodations in the area range from luxury resorts to simple camping sites, making it a popular destination for a wide range of travelers. Whether you're looking to relax and soak up the natural beauty of the lagoon or want to try your hand at kite surfing, Dakhla Lagoon is a destination that is not to be missed."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

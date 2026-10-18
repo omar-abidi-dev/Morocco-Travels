@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Chefchaouen"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chefchaouen is a picturesque and charming city located in the Rif Mountains of northern Morocco."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Known for its striking blue buildings and narrow streets, Chefchaouen is a popular tourist destination that offers a unique blend of Moroccan and Andalusian influences."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/chefchaouen1" />
+
+            <Button
+                android:id="@+id/btn4.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="MEDINA" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouen2" />
+
+            <Button
+                android:id="@+id/btn4.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="Kasbah" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouen3" />
+
+            <Button
+                android:id="@+id/btn4.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="Artisanal craft" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouen4" />
+
+            <Button
+                android:id="@+id/btn4.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="streets" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

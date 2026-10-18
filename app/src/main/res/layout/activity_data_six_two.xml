@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_six_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beach"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadirb01" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agadir Marina is equipped with a variety of facilities and amenities to make visitors' experiences as enjoyable as possible. The marina features over 300 berths for boats and yachts, making it one of the largest marinas in Morocco. There are also several shops and boutiques selling clothing, jewelry, and souvenirs, as well as restaurants and cafes serving a variety of cuisines."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadirb03" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taghazout Beach Taghazout Beach is located just a few miles north of Agadir and is a popular destination for surfers. The beach offers consistent waves year-round and is known for its laid-back vibe. Visitors can rent surfboards and take lessons from local instructors, or simply relax on the beach and enjoy the scenery." />
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/agadirb02" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agadir Beach Agadir Beach is the city's main beach and is one of the most popular in Morocco. The beach stretches for nearly six miles and offers stunning views of the Atlantic Ocean. The beach is clean and well-maintained, with plenty of amenities such as beach chairs, umbrellas, and restaurants. Visitors can swim in the ocean, relax on the beach, or take part in a variety of water sports, such as surfing and jet skiing." />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

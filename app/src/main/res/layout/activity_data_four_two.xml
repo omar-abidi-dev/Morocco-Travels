@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_four_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView156"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="medina"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView157"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouenkasbah49" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah of Chefchaouen is a beautiful fortress located in the heart of the city's medina. The Kasbah was built in the 15th century by Moulay Ali ibn Rashid, the founder of Chefchaouen, as a way to defend the city against invading forces.  The Kasbah is a stunning example of traditional Moroccan architecture, with its thick walls, towers, and courtyards. It features intricate tilework and wood carvings, and is decorated with beautiful mosaics and murals."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView158"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouenkasbah47" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah is now home to a museum that showcases the history and culture of Chefchaouen. Visitors can explore the many rooms and galleries of the museum, which feature displays of traditional Moroccan costumes, textiles, ceramics, and other works of art. The museum also includes a large collection of historic photographs and documents, offering a glimpse into the city's rich history."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView159"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouenkasbah48" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most impressive features of the Kasbah is its beautiful gardens, which offer stunning views of the city and the surrounding Rif Mountains. The gardens are filled with fragrant flowers, exotic plants, and fruit trees, and are a peaceful oasis in the heart of the bustling medina.  "
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah also offers a great vantage point for taking in the stunning blue-painted buildings that give Chefchaouen its unique and charming character. Visitors can climb to the top of the Kasbah's towers for panoramic views of the city, or simply relax in one of its many courtyards and soak up the atmosphere."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

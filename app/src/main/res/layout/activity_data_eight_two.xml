@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_eight_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView190"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="the Hassan Tower"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hassan Tower is a minaret located in Rabat, the capital of Morocco. The tower was built in the 12th century during the reign of the Almohad caliphate and was intended to be the largest mosque in the world. However, the construction was never completed, and the mosque was left unfinished for centuries. Despite its incomplete state, the tower remains a remarkable symbol of Moroccan architecture and history."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView191"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/hassantower02" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The tower is 44 meters tall and is made of sandstone. The design of the tower is simple, with square-shaped minaret topped with a pyramidal spire. The tower is decorated with intricate geometric patterns and inscriptions in Arabic calligraphy. The base of the tower is also decorated with beautiful zellige tilework, a traditional form of Moroccan mosaic."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView192"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/hassantower06" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitors to the Hassan Tower can explore the tower and the surrounding complex, which includes the remains of the unfinished mosque, a beautifully landscaped garden, and the mausoleum of King Mohammed V. The mausoleum is a grand structure made of white marble and is the final resting place of the late King and his two sons."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView193"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/hassantower08" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hassan Tower and its surrounding complex offer a unique glimpse into the rich history and culture of Morocco. Visitors can learn about the country's Islamic heritage, explore its beautiful architecture, and marvel at the intricate details of the decorative elements. The tower is also a popular spot for photography, with its striking silhouette against the blue sky and the surrounding greenery."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In recent years, the Hassan Tower has undergone extensive restoration work to preserve its historical significance and ensure its longevity for future generations. Today, it stands as a testament to the grandeur and beauty of Moroccan architecture, and a reminder of the country's rich cultural heritage."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

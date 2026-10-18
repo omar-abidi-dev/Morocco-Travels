@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_eight_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView199"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="food"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabat is the capital city of Morocco, and like all major cities in Morocco, it boasts a rich culinary culture. The city's food is a blend of Arabic, Berber, and French influences, and it offers a range of dishes that can satisfy any palate."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView203"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatfood014" />
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most popular dishes in Rabat is &quot;b'stilla,&quot; which is a sweet and savory pie made with phyllo pastry, chicken or pigeon meat, and almonds. The dish is flavored with cinnamon and sugar and is typically served during special occasions, such as weddings and other celebrations." />
+
+            <ImageView
+                android:id="@+id/imageView204"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatfood87" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular dish is &quot;harira,&quot; which is a traditional Moroccan soup made with chickpeas, lentils, and tomatoes. The soup is typically served during Ramadan, but it's also a popular choice for lunch or dinner.  Rabat is also known for its seafood dishes, thanks to its location on the Atlantic coast. One popular dish is &quot;sardines grillées,&quot; which is grilled sardines that are seasoned with a blend of spices and served with bread and salad."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView205"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatfood" />
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For those with a sweet tooth, Rabat has plenty of delicious treats to offer. One popular dessert is &quot;chebakia,&quot; which is a fried pastry that is soaked in honey and sprinkled with sesame seeds. Another popular dessert is &quot;sellou,&quot; which is a sweet and nutty mixture made with almonds, sesame seeds, and honey."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In addition to these dishes, Rabat has many restaurants that serve a range of international cuisine, including French, Italian, and Chinese. The city also has plenty of street food vendors and markets that offer a variety of tasty snacks and treats."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

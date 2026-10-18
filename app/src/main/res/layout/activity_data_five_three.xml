@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_five_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView179"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dragon Island"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dragon Island, also known as Île du Dragon, is a small island located off the coast of Dakhla in southern Morocco. The island is named after its distinctive shape, which resembles a dragon lying in the water. It is a popular destination for tourists and locals alike, offering stunning views and unique experiences."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView180"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhladragon03" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The island is only accessible by boat, and visitors can either take a guided tour or rent a boat and explore the island on their own. Upon arrival, visitors are greeted by crystal clear waters and white sand beaches, which are perfect for swimming and sunbathing."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView181"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhladragon01" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most popular activities on Dragon Island is kiteboarding. The island is known for its strong winds, which make it an ideal destination for this thrilling sport. Visitors can rent equipment and take lessons from local instructors to master the techniques required for kiteboarding."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView182"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhladragon02" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular activity on Dragon Island is exploring the island's unique ecosystem. The island is home to a variety of birds, including herons and flamingos, as well as marine life such as dolphins and sea turtles. Visitors can take a guided tour or rent snorkeling gear to explore the island's underwater world and observe the marine life in their natural habitat."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In addition to its natural wonders, Dragon Island also boasts a rich history and culture. The island was once a hub for trade and commerce, and visitors can still see the remnants of its past, including the ruins of an old fortress and a traditional fishing village. The island also has a small museum that showcases the island's history and cultural heritage."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

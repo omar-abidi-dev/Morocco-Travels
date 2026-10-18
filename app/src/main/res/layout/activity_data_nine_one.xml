@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_nine_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="the Medina "
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView136"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezmedina1" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Medina of Fez is one of the most important and well-preserved medieval cities in the world, and a UNESCO World Heritage Site. It is the largest car-free urban area in the world, and is home to over 9,000 narrow streets and alleyways, making it a labyrinthine and magical place to explore."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView137"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fesmedina2" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The history of the Medina of Fez dates back over a thousand years, and it was once the capital of Morocco. Today, it is a bustling hub of activity, with markets, workshops, and traditional Moroccan riads (houses) lining its streets. Visitors to the Medina can explore its many sights and attractions, including mosques, madrasas (Islamic schools), and museums."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView138"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezmedina3" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Medina of Fez is also home to many traditional markets, or souks, where visitors can shop for a variety of goods, including spices, textiles, and handicrafts. The markets are a vibrant and bustling hub of activity, with vendors calling out to potential customers and bargaining being the norm. Visitors can immerse themselves in the sights, sounds, and smells of the markets, and perhaps even pick up a souvenir or two to take home."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In addition to its many sights and attractions, the Medina of Fez is also a fascinating cultural destination, with a rich history and heritage that is visible in its architecture, cuisine, and traditions. Visitors to the Medina can experience the warm hospitality and traditional way of life of the Moroccan people, and gain a deeper understanding of this beautiful and complex country."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

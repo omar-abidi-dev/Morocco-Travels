@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_one_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView118"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="traditonal market"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechma03" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most popular souks in Marrakech is the Souk Semmarine, which is located near the Jemaa el-Fnaa. This souk is known for its leather goods, including bags, shoes, and belts, as well as traditional Moroccan clothing such as kaftans and djellabas. The souk is also home to several jewelry shops, where you can find intricate pieces made from silver, gold, and precious stones."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechma01" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular souk is the Souk El Bahja, which is located near the Bahia Palace. This souk is known for its ceramics, including colorful plates, bowls, and tagines. It is also home to several spice shops, where you can find a wide range of spices used in traditional Moroccan cooking."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kecma02" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Souk Cherifia is another popular shopping destination in Marrakech, located near the Mouassine Mosque. This souk is known for its high-end fashion and jewelry, featuring a mix of contemporary and traditional Moroccan designs."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For those looking for traditional Moroccan handicrafts, the Souk des Teinturiers is a great place to visit. Located near the Bab Doukkala mosque, this souk is known for its textiles, including wool and silk carpets, embroidered fabrics, and colorful blankets."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finally, the Souk Zrabia is a great place to find handcrafted Moroccan furniture, including wooden chairs, tables, and chests. This souk is located near the Mouassine Fountain, and also features several shops selling traditional Moroccan lamps and lanterns."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

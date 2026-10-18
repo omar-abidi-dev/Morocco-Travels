@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Data_two_two" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="the Caves of Hercules"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangerb10" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Caves of Hercules are a popular tourist attraction located just a few kilometers outside of the city of Tangier in northern Morocco. These caves have been a site of historical and cultural significance for thousands of years, drawing visitors from all over the world who come to explore their unique geological formations and learn about their ancient history."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History and Mythology"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Caves of Hercules are believed to have been used as a place of worship by the Phoenicians, who were an ancient civilization that inhabited the Mediterranean coast during the first millennium BCE. Later, the Romans used the caves as a place of refuge during times of war. The caves are named after the mythical hero Hercules, who was said to have rested in the caves during his twelve labors."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangerb11" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="According to legend, Hercules created the opening to the cave by striking the rock with his club, and then rested in the cave before continuing on his journey. There is a stone formation in the cave that is said to resemble the outline of Hercules' head, which visitors can still see today."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Caves of Hercules are made up of a mixture of limestone and sandstone, and feature unique geological formations such as stalactites and stalagmites that have formed over thousands of years. The caves are divided into two main chambers, with the larger chamber measuring about 60 meters long and 30 meters wide."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/tangerb13" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most unique features of the caves is the &quot;opening&quot; to the cave, which is a natural arch that is formed by the eroding effects of the waves crashing against the rock over time. The opening is in the shape of a horseshoe and is large enough for small boats to pass through."
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Caves of Hercules hold great cultural significance for the people of Morocco, and are considered to be a sacred site. The caves have been used for centuries for various religious and spiritual purposes, and are still used for rituals and ceremonies today.  Visitors to the caves can explore the various chambers and passages, and marvel at the unique geological formations. The caves are also a popular spot for photographers, as the opening to the cave provides a stunning view of the Atlantic Ocean and the surrounding cliffs."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

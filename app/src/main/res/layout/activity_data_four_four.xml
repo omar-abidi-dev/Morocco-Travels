@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_four_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView164"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="street"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The streets of Chefchaouen are one of the city's most distinctive features. Known for their vibrant blue color, the streets wind their way through the city's medina, creating a maze-like network of narrow alleys and hidden courtyards that are filled with surprises and delights.w"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView165"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouenstreet21" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The blue color of the streets is not a recent development; in fact, it has been a part of Chefchaouen's identity for centuries. According to local legend, the Jewish refugees who first settled in Chefchaouen in the 15th century painted their houses blue as a symbol of their connection to God and heaven. The tradition continued over the centuries, with locals adopting the blue color as a way to keep their homes cool in the hot summer months."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView166"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/chefchaouenstreet58" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today, the blue streets of Chefchaouen are one of the city's biggest attractions. Visitors from all over the world flock to the medina to wander through the labyrinth of alleys, taking in the sights and sounds of this unique and charming city.  In addition to the blue streets, the medina of Chefchaouen is also home to a number of other notable features. The main square of the medina, known as Plaza Uta el-Hammam, is a bustling hub of activity, with cafes and restaurants lining the perimeter and vendors selling everything from handmade crafts to fresh produce."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView167"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/cheouen1" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other notable sites in the medina include the kasbah, a 15th-century fortress that now serves as a museum, and the Grand Mosque, which dates back to the 16th century and is one of the oldest mosques in the city."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

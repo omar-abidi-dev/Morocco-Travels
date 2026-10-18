@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_eight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabat"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabat is the capital city of Morocco, located on the Atlantic coast and bordered by the Bou Regreg River."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Known for its rich history, stunning architecture, and cultural attractions, Rabat is a popular destination for tourists from around the world."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabat5" />
+
+            <Button
+                android:id="@+id/btn8.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="the Kasbah of the Udayas" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabat8" />
+
+            <Button
+                android:id="@+id/btn8.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="the Hassan Tower" />
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabat9" />
+
+            <Button
+                android:id="@+id/btn8.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="Archaeological Museum" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabat10" />
+
+            <Button
+                android:id="@+id/btn8.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guide"
+                android:text="food" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_five_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView175"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="White Dune"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The White Dune of Dakhla is a stunning natural wonder located in the southernmost region of Morocco. It is a popular destination for travelers seeking to experience the region's unique beauty and explore its natural wonders."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView176"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhla257" />
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The White Dune is a massive sand formation that rises over 500 meters above sea level. It is located on the Atlantic coast, just a short drive from the city of Dakhla. The dune gets its name from its distinctive white color, which is due to the high concentration of sand particles that reflect the sunlight."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView177"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhla4" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitors to the White Dune can take part in a range of activities, including sandboarding, camel riding, and quad biking. The dune is also a popular spot for hiking and picnicking, with many visitors taking advantage of the beautiful surroundings to enjoy a day in the great outdoors.  One of the most popular activities at the White Dune is sandboarding. This exhilarating sport involves sliding down the steep sand slopes on a board, similar to snowboarding. Visitors can rent sandboards and receive instruction from local guides, who can help them master the techniques required to tackle the dune's steep slopes."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView178"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/dakhla251" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Another popular activity at the White Dune is camel riding. This traditional mode of transportation is a great way to explore the surrounding area and take in the stunning views from the top of the dune. Visitors can book guided camel rides or opt for a more independent experience and explore the dune on their own."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Whether you're seeking adventure, natural beauty, or just a unique experience, the White Dune of Dakhla is a destination that is sure to leave a lasting impression. Its stunning scenery, exciting activities, and unique culture make it a must-visit destination for anyone traveling to the region."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

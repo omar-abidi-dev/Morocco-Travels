@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_nine_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView143"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="food"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView144"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezfood2" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tagine: This is perhaps the most well-known Moroccan dish, consisting of meat or vegetables cooked in a conical clay pot with a variety of spices. The pot is called a tagine, and it gives the dish its name. The tagine is traditionally cooked over charcoal, which helps to infuse the food with a smoky flavor. Some popular variations include lamb tagine with prunes, chicken tagine with olives, and vegetable tagine with chickpeas. Tagine is a delicious and satisfying meal that's perfect for sharing with friends and family.w"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView145"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezfood79" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pastilla: This is a sweet and savory pastry filled with shredded chicken, almonds, and spices, and topped with powdered sugar and cinnamon. The pastry is made with thin layers of phyllo dough, and the filling is cooked with a variety of spices, including cinnamon, ginger, and saffron. The finished dish is a perfect blend of flavors and textures, with the sweetness of the sugar and cinnamon balancing out the savory chicken and spices."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView146"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezfood88" />
+
+            <ImageView
+                android:id="@+id/imageView147"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/fezfood6" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Couscous: This is a staple dish in Moroccan cuisine, consisting of steamed semolina grains served with meat and vegetables. The dish is often cooked with a variety of spices, including cumin, coriander, and turmeric. Couscous is a delicious and satisfying meal that's perfect for a family dinner."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B'stilla: This is a savory pastry filled with pigeon meat, almonds, and spices, and topped with powdered sugar and cinnamon. It's a delicacy often served at special occasions, such as weddings or religious festivals. The pastry is made with layers of phyllo dough, and the filling is cooked with a variety of spices, including saffron, ginger, and cinnamon. The finished dish is a perfect blend of sweet and savory flavors."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

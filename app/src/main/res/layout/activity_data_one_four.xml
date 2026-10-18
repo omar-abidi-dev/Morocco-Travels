@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_one_four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView130"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="landmarks"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView132"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechlandmark4" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Djemaa el-Fna is the main square in Marrakech and a vibrant hub of activity. It features street performers, food stalls, and market vendors, making it a popular spot for both locals and tourists alike. The square is a testament to the city's rich cultural heritage and a must-see for anyone visiting Marrakech."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView133"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechlandmark1" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marrakech is a city of rich history and culture, and its landmarks are a testament to its unique character. The city is filled with many iconic structures and sites that have come to define it over the centuries, making it a popular destination for travelers from around the world.  One of the most iconic landmarks in Marrakech is the Koutoubia Mosque, which is the largest mosque in the city. Its towering minaret is over 70 meters tall and can be seen from many parts of the city. The mosque was built in the 12th century and is known for its beautiful architecture and intricate decorations. It is an important religious site and a cultural icon of Marrakech."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView134"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechlandmark5" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menara is a beautiful and historic garden located in the heart of Marrakech, Morocco. The garden is famous for its picturesque man-made lake, surrounded by olive groves, and its stunning views of the Atlas Mountains. The garden is a popular destination for both locals and tourists alike, and is a great place to relax and escape the hustle and bustle of the city."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Menara garden is also home to a variety of fruit trees, including figs, oranges, and pomegranates. Visitors can explore the many paths and gardens of the Menara, enjoying the sights and scents of the beautiful flowers and trees."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView135"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/kechlandmark3" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kasbah is a historic and culturally significant district located in the heart of Marrakech, Morocco. This ancient fortified neighborhood is a must-see destination for anyone visiting the city, and is home to a wealth of historical landmarks, museums, and traditional Moroccan architecture."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

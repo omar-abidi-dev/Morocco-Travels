@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_eight_three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView198"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="-4dp"
+                app:srcCompat="@drawable/zelig002" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Archaeological Museum"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Rabat Archaeological Museum, also known as the National Museum of Archaeology, is a museum located in Rabat, the capital city of Morocco. The museum was founded in 1932 and has a vast collection of archaeological artifacts from Morocco's prehistoric times until the Islamic period."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatmesum0248" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The museum's collection is divided into four main sections: prehistory, the Phoenician and Punic period, the Roman period, and Islamic art. The prehistoric section has a wide range of artifacts, including stone tools, ceramics, and jewelry, dating from the Paleolithic to the Neolithic period. The Phoenician and Punic section has artifacts from the Carthaginian period, including pottery, jewelry, and sculptures. The Roman section has a vast collection of mosaics, sculptures, and inscriptions from the Roman period."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView201"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatmesum058" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Islamic art section has a wide range of artifacts from the Islamic period in Morocco, including ceramics, textiles, and calligraphy. The museum also has a collection of coins, including Roman, Byzantine, and Islamic coins, as well as Moroccan coins from various periods."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView202"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rabatmesum07" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The museum has undergone several renovations and expansions over the years, with the most recent renovation taking place in 2014. The museum's exhibition space was expanded, and new displays were added to showcase more artifacts from Morocco's rich history."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In addition to its permanent collection, the museum also hosts temporary exhibitions and events throughout the year. The museum's aim is to promote the cultural heritage of Morocco and to educate visitors about the country's rich history and diverse cultural traditions."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Rabat Archaeological Museum is a must-visit destination for anyone interested in the history and culture of Morocco. The museum's impressive collection of artifacts and exhibits provide a fascinating insight into Morocco's rich history and cultural heritage."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
