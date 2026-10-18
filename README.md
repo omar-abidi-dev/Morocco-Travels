@@ -1,5 +1,7 @@
 # Visiting Morocco Guide
 
+![Visiting Morocco Guide — Marrakech, Tangier, Casablanca, Chefchaouen, Dakhla, Agadir, Rabat and Fez](docs/banner.jpg)
+
 An offline Android travel guide to eight of Morocco's most visited cities. Pick a city, read a short introduction, then dive into its landmarks, markets, food and activities — each with its own illustrated page.
 
 ## Cities covered
