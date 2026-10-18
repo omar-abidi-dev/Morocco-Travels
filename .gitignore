@@ -19,3 +19,9 @@ local.properties
 *.keystore
 *.aab
 *.apk
+/app/build
+/app/release
+*.jks
+*.keystore
+*.aab
+*.apk
